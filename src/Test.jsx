@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 const Test = () => {
-  const navigator = useNavigate();
   const handleShare = () => {
     if (navigator.share) {
       navigator.share({
